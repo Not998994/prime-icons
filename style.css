@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'Prime-Icons';
-  src: url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.eot');
-  src: url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.eot?#iefix') format('embedded-opentype'),
-       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.ttf') format('truetype'),
-       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.woff') format('woff'),
-       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.svg#Prime-Icons') format('svg');
+  src: url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.eot');
+  src: url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.eot?#iefix') format('embedded-opentype'),
+       url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.ttf') format('truetype'),
+       url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.woff') format('woff'),
+       url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.svg#Prime-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="prime-"], [class*=" prime-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Prime-Icons' !important;
   speak: never;
   font-style: normal;
@@ -20,7 +19,6 @@
   text-transform: none;
   line-height: 1;
 
-  /* Melhor renderização de fontes */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
