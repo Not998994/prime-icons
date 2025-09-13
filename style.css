@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Prime-Icons';
-  src:  url('fonts/Prime-Icons.eot?syl7mr');
-  src:  url('fonts/Prime-Icons.eot?syl7mr#iefix') format('embedded-opentype'),
-    url('fonts/Prime-Icons.ttf?syl7mr') format('truetype'),
-    url('fonts/Prime-Icons.woff?syl7mr') format('woff'),
-    url('fonts/Prime-Icons.svg?syl7mr#Prime-Icons') format('svg');
+  src: url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.eot');
+  src: url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.eot?#iefix') format('embedded-opentype'),
+       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.ttf') format('truetype'),
+       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.woff') format('woff'),
+       url('https://raw.githubusercontent.com/Not998994/prime-icons/main/fonts/Prime-Icons.svg#Prime-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,7 +20,7 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+  /* Melhor renderização de fontes */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
