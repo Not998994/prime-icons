@@ -1,24 +1,32 @@
-@font-face {
-  font-family: 'Prime-Icons';
-  src: url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.woff') format('woff'),
-       url('https://not998994.github.io/prime-icons/fonts/Prime-Icons.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste da Prime Icons</title>
+  <!-- CSS da biblioteca direto do GitHub Pages -->
+  <link rel="stylesheet" href="https://not998994.github.io/prime-icons/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background: #f4f4f4;
+    }
+    h1 { margin-bottom: 20px; }
+    .icon {
+      font-size: 72px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Teste da Prime Icons</h1>
+  <p>Se a biblioteca estiver funcionando, você verá a lupa abaixo:</p>
 
-[class^="prime-"], [class*=" prime-"] {
-  font-family: 'Prime-Icons' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  <!-- Ícone da lupa -->
+  <i class="prime-search icon"></i>
 
-.prime-search:before {
-  content: "\e900";
-}
+  <p>✅ Se aparecer uma lupa acima, está funcionando!</p>
+</body>
+</html>
